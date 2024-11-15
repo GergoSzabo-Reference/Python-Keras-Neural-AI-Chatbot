@@ -1,0 +1,52 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "good day", "hi", "greetings", "what's up", "how is it going?"],
+        "responses": ["Hello!", "Hey!", "What can I do for you?", "Greetings!"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you", "later", "farewell", "take care"],
+        "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["thank you", "thanks", "I appreciate it", "much appreciated", "thanks a lot"],
+        "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+    },
+    {
+        "tag": "age",
+        "patterns": ["how old are you?", "what's your age?", "are you old?", "tell me your age"],
+        "responses": ["I'm ageless!", "I exist beyond time.", "Age is just a number for me."]
+    },
+    {
+        "tag": "name",
+        "patterns": ["what's your name?", "do you have a name?", "who are you?", "your name?"],
+        "responses": ["I'm your friendly chatbot.", "I'm called AI Helper.", "I'm here to help!"]
+    },
+    {
+        "tag": "shop",
+        "patterns": ["do you have a shop?", "where can I shop?", "do you sell?", "buy items"],
+        "responses": ["Check out our online store!", "You can shop on our website.", "Visit our store anytime!"]
+    },
+    {
+        "tag": "hours",
+        "patterns": ["what are your hours?", "when are you open?", "business hours?", "opening times"],
+        "responses": ["We're open 24/7!", "Our online services are always available.", "Reach us anytime!"]
+    },
+    {
+        "tag": "help",
+        "patterns": ["I need help", "can you help me?", "assist me", "help me out"],
+        "responses": ["Sure, I'm here to help!", "What do you need assistance with?", "I'm here to support you."]
+    },
+    {
+        "tag": "weather",
+        "patterns": ["what's the weather?", "how's the weather?", "is it raining?", "forecast"],
+        "responses": ["I'm not sure, but you could check a weather site.", "Let me know where you are, and I can suggest a local forecast site."]
+    },
+    {
+        "tag": "joke",
+        "patterns": ["tell me a joke", "make me laugh", "funny", "give me a joke"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "What do you call fake spaghetti? An impasta!"]
+    }
+]}
